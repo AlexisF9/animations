@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: black;
+    overflow: hidden;
+}
+
+.cursor {
+    position: absolute;
+    pointer-events: none;
+    height: 350px;
+    width: 400px;
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+li {
+    color: white;
+    list-style: none;
+    font-size: 50px;
+    font-family: sans-serif;
+    padding: 20px;
+    cursor: none;
+    transition: opacity 0.5s;
+}
+
+li:hover {
+    opacity: 0.5;
+}
